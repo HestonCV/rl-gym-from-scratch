@@ -1,5 +1,5 @@
-import random
 from collections import deque, namedtuple
+import random
 
 class ExperienceReplay:
     def __init__(self, capacity, batch_size):
@@ -22,7 +22,7 @@ class ExperienceReplay:
         # Batch will be a random sample of experiences from memory of size batch_size
         batch = random.sample(self.memory, self.batch_size)
         return batch
-
+    
     def can_provide_sample(self):
         # Determines if the length of memory has exceeded batch_size
         return len(self.memory) >= self.batch_size
