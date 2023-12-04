@@ -114,8 +114,8 @@ class Environment:
                 # If new_location is closer to the goal, reward = 1, if further, reward = -1
                 reward = (previous_distance - new_distance) - 0.1
         else:
-            # Slightly larger punishment for an invalid move
-            reward = -3
+            # Same punishment for an invalid move
+            reward = -1.1
         
         return reward, done
     
