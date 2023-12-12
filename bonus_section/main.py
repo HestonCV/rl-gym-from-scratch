@@ -2,8 +2,8 @@
     Updated state representation implemented in 10. Bonus: Optimize State Representation
 '''
 
-from bonus_environment import Environment
-from bonus_agent import Agent
+from environment import Environment
+from agent import Agent
 from experience_replay import ExperienceReplay
 import time
 
