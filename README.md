@@ -4,6 +4,8 @@
 
 This project is a Python-based implementation of a Deep Reinforcement Learning (DRL) Gym, utilizing TensorFlow for neural network computations. It's designed to demonstrate the principles of Deep Q-Learning by training an AI agent to navigate a grid environment towards a specified goal.
 
+
+![DRL Gym Demo -- Flappy Bird Clone](./flappy_bird.gif)
 ## Detailed Article
 For a comprehensive, follow-along guide and theoretical background, refer to my Medium article: [Develop Your First AI Agent: Deep Q-Learning](#medium-article-link).
 
